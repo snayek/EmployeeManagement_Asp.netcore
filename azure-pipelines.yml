@@ -40,8 +40,4 @@ steps:
     pathToPublish: $(Build.ArtifactStagingDirectory)
     artifactName: Employeemanagement
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish all ARM templates'
-  inputs:
-    PathtoPublish: '$(deploymentArtifacts)'
-    ArtifactName: '$(deploymentArtifacts)'
+
